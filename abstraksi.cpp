@@ -21,3 +21,10 @@ class Abstraksiklas {
 
     }
 };
+
+int main (){
+    Abstraksiklas ak;
+    ak.setXY("Ypgyakarta", "Kamapus");
+    ak.display();
+    return 0;
+};
